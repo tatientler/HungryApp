@@ -1,0 +1,34 @@
+/* Mobile first - Configurações do menu superior/navbar */
+
+.navbar-toggler {
+    opacity: 0;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.user-info {
+    color: #8c8c8c;
+    font-size: 1rem;
+    text-align: end;
+}
+
+.address {
+    color: #d93d86;
+    font-weight: bold;
+}
+
+.exit-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 940px){
+    .navbar-toggler {
+        opacity: 1;
+    }
+
+    .exit-desktop {
+        display: block;
+    }
+}

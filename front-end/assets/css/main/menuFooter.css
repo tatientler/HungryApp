@@ -1,0 +1,30 @@
+/* Mobile first - Configurações do menu inferior (mobile) */
+
+.nav-pills .nav-link {
+    border-radius: 50px;
+}
+
+.nav-link {
+    color: #d93d86;
+}
+
+.active {
+    background-color: #d93d86;
+    border: 1px solid #d93d86;
+    border-radius: 100px;
+    width: 3rem;
+}
+
+.bi.bi-house {
+    color: #fefefe;
+}
+
+@media screen and (min-width: 940px){
+    footer {
+        display: none;
+    }
+
+    .nav-pills .nav-link {
+        border-radius: 0px;
+    } 
+}

@@ -1,0 +1,51 @@
+/* Mobile firts - Arquivo CSS com especificações do fundo e textos da tela de login*/
+
+body {
+    background: url('../../img/index/001.jpg') no-repeat top center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.forgot-password {
+    color: #000;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.option {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.new-user {
+    font-size: 0.9rem;
+}
+
+.new-user a {
+    color: #000;
+    text-decoration: none;
+}
+
+.new-user a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 940px) {
+    body {
+        background: url('../../img/index/pexels-brigitte-tohm-239581.jpg');
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+}

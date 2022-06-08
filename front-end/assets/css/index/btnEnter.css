@@ -1,0 +1,13 @@
+/*Características do botão de entrar*/
+
+.btn-enter {
+    background-color: #d93d86;
+    border: #d93d86;
+    border-radius: 50px;
+    color: #fefefe;
+}
+
+.btn-enter:hover {
+    background-color: #d93d86;
+    color: #fefefe;
+}

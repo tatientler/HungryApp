@@ -1,0 +1,24 @@
+/*Especificações dos botões de rede social para login*/
+
+#btn-google, #btn-facebook {
+    background-color: #fefefe;
+    border: 1px solid #4f4f4f;
+    color: #000;
+}
+
+.google, .facebook {
+    height: 18px;
+}
+
+.btn-social-media {
+    background-color: #fefefe;
+    border: 1px solid #4f4f4f;
+    border-radius: 50px;
+    color: #000;
+}
+
+.btn-social-media:hover {
+    background-color: #fefefe;
+    border: 1px solid #4f4f4f;
+    color: #000;
+}

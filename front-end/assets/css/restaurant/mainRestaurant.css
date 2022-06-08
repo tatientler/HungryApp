@@ -1,0 +1,131 @@
+body {
+    padding-bottom: 3rem;
+}
+
+p {
+    color: #8c8c8c;
+    margin-bottom: 0.3rem;
+}
+
+.restaurant {
+    background-color: #fefefe;
+    border-bottom: 1px solid #8c8c8c33;
+    box-shadow: 0.1rem 0.1rem 0.3rem #8c8c8c;
+    position: relative;
+}
+
+.img-logo {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100px;
+    border: 1px solid #8c8c8c33;
+}
+
+.h2 {
+    font-size: 1rem;
+}
+
+.restaurant-description {
+    font-size: 0.8rem;
+}
+
+.price-description {
+    color: #5cd93dd3;
+}
+
+.dish-card {
+    background-color: #fefefe;
+    border: 1px solid #8c8c8c33;
+    border-radius: 15px;
+    box-shadow: 0.1rem 0.1rem 0.4rem #8c8c8c33;
+    position: relative;
+}
+
+.img-dish {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+}
+
+.add-btn {
+    position: absolute;
+    right: -13px;
+    bottom: 0;
+    width: auto;
+}
+
+.add-btn button {
+    background-color: #d93d86;
+    border: 1px solid #d93d86;
+    border-radius: 0 0 15px 0;
+}
+
+.bi-plus-lg {
+    color: #fefefe;
+}
+
+.back-btn {
+    border: none;
+}
+
+.restaurant-header {
+    background-color: #fefefe;
+    position: relative;
+    top: -40px;
+    border-radius: 50px 50px 0 0;
+    border-bottom: 2px solid rgb(245, 247, 251);
+    box-shadow: 1px 1px 1px #8c8c8c33;
+}
+
+.logo {
+    width: 2rem;
+}
+
+.img-restaurant {
+    width: 100%;
+}
+
+.hide {
+    display: none !important;
+}
+
+@media screen and (min-width: 940px) {
+
+    .img-logo {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 100px;
+    }
+
+    .h2 {
+        font-size: 1.2rem;
+    }
+
+    .restaurant-description {
+        font-size: 0.9rem;
+    }
+
+    .restaurant-header {
+        top: 0;
+    }
+
+    .img-restaurant {
+        display: none;
+    }
+
+    .parallax {
+        background: url('../../img/store/bc35b38791c342ab8ca756f0eba32e64.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    .hide {
+        display: none !important;
+    }
+}

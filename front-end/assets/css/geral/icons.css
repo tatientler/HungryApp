@@ -1,0 +1,25 @@
+.bi {
+    color: #d93d86;
+}
+
+.bi-patch-check-fill {
+    color: green;
+}
+
+.bi-star-fill {
+    color: #ffd700;
+}
+
+.bi-heart {
+    color: #8c8c8c;
+}
+
+.bi-heart, .bi-heart-fill {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 940px) {
+    .bi-heart, .bi-heart-fill {
+        font-size: 1.5rem;
+    }
+}

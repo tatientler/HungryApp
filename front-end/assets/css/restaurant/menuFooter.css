@@ -1,0 +1,20 @@
+.active {
+    background-color: #d93d86;
+    border: 1px solid #d93d86;
+    border-radius: 100px;
+    width: 3rem;
+}
+
+.bi.bi-ticket-perforated {
+    color: #fefefe;
+}
+
+@media screen and (min-width: 940px){
+    footer {
+        display: none;
+    }
+
+    .nav-pills .nav-link {
+        border-radius: 0px;
+    } 
+}

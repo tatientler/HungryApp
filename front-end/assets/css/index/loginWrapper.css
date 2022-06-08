@@ -1,0 +1,23 @@
+/*Mobile first - Arquivo CSS com as especificações utilizadas na div de login */
+
+.login-wrapper {
+    background-color: #fefefe;
+    border-radius: 25px;
+    height: 32rem;
+    opacity: 0.95;
+    width: 25rem;
+}
+
+.h1 {
+    color: #4f4f4f;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 940px) {
+    .login-wrapper {
+        position: absolute;
+        right: 50%;
+        transform: translate(110%);
+    }
+}

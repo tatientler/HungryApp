@@ -1,0 +1,30 @@
+.search-navbar {
+    background-color: #fefefe;
+    border: 2px solid rgb(245, 247, 251);
+    border-radius: 10px;
+    display: none;
+}
+
+.search-bar {
+    background-color: #fefefe;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    width: 100%;
+}
+
+.search-btn {
+    background-color: #fefefe;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+@media screen and (min-width: 940px) {
+    .search {
+       display: none;
+    }
+
+    .search-navbar {
+        display: block;
+    }
+}

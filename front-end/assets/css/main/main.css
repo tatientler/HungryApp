@@ -1,0 +1,50 @@
+/* Mbile first - Configurações gerais da tela com lista de estabelecimentos e body */
+
+body {
+    padding-bottom: 3rem;
+}
+
+p {
+    color: #8c8c8c;
+    margin-bottom: 0.3rem;
+}
+
+.img-logo {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100px;
+}
+
+.h2 {
+    font-size: 1rem;
+}
+
+.restaurant-description {
+    font-size: 0.8rem;
+}
+
+.hide {
+    display: none !important;
+}
+
+
+@media screen and (min-width: 940px){
+
+    .img-logo {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 100px;
+    }
+
+    .hide {
+        display: none !important;
+    }
+    
+    .h2 {
+        font-size: 1.2rem;
+    }
+    
+    .restaurant-description {
+        font-size: 0.9rem;
+    } 
+}
