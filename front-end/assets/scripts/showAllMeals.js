@@ -1,6 +1,7 @@
 const searchBtn = document.getElementById('search-btn')
 searchBtn.addEventListener('click', showRestaurant())
 searchBtn.addEventListener('click', showAllMeals())
+const titulo = document.getElementById('titulo')
 
 const restaurantWrapper = document.querySelector("[data-restaurant-card]")
 const main = document.getElementById('restaurant-wrapper')
@@ -28,6 +29,7 @@ async function showRestaurant(id = '629fadb2109f24e9efccd186') {
 
             main.appendChild(card)
 
+            titulo.innerHTML = restaurant.name
         })
 }
 
